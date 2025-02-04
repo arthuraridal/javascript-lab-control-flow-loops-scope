@@ -1,5 +1,4 @@
-// Step 2: If-else Condition
-let number = 5; // Assign any number here
+let number = 5;
 
 if (number > 0) {
     console.log("The number is positive.");
@@ -9,8 +8,8 @@ if (number > 0) {
     console.log("The number is zero.");
 }
 
-// Step 3: Switch Statement
-let day = 3; // Assign a number between 1 and 7
+
+let day = 3;
 
 switch (day) {
     case 1:
@@ -38,7 +37,6 @@ switch (day) {
         console.log("Invalid day number");
 }
 
-// Step 4: Loops (For, While, Do...While)
 console.log("For Loop:");
 for (let i = 1; i <= 5; i++) {
     console.log(i);
@@ -58,11 +56,10 @@ do {
     j++;
 } while (j <= 5);
 
-// Step 5: Control Flow with break and continue
 console.log("Break Example:");
 for (let i = 1; i <= 5; i++) {
     if (i === 3) {
-        break; // Stop the loop when i equals 3
+        break;
     }
     console.log(i);
 }
@@ -70,21 +67,21 @@ for (let i = 1; i <= 5; i++) {
 console.log("Continue Example:");
 for (let i = 1; i <= 5; i++) {
     if (i === 3) {
-        continue; // Skip the iteration when i equals 3
+        continue; 
     }
     console.log(i);
 }
 
-// Step 6: Scope and Context
-let globalVar = "I'm global!"; // Global variable
+
+let globalVar = "I'm global!";
 
 function scopeExample() {
-    let localVar = "I'm local!"; // Local variable
-    console.log(globalVar); // Access global variable
-    console.log(localVar); // Access local variable
+    let localVar = "I'm local!";
+    console.log(globalVar);
+    console.log(localVar);
 }
 
 scopeExample();
 
-console.log(globalVar); // Can access global variable
-// console.log(localVar); // Cannot access local variable (this will cause an error)
+console.log(globalVar); 
+
